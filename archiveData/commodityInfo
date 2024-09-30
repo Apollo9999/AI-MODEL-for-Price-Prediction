@@ -1,0 +1,4 @@
+# This sheet is for type of product type list
+# product type will also have a price per gram value range, this essentially tells how expensive or cheap an item of that group can be. An average value will also be mentioned which will be chosen more often to maintain mean distribution
+# for the initial time being, currently will use random price within a range without commodity info to complete script
+# a logic can be added in fetch script to consider vol weight and dead weight limit to select multiple items from commodityInfo

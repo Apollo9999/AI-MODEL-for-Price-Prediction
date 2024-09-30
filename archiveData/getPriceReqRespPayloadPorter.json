@@ -1,0 +1,121 @@
+{"message":"The pincodes are temporarily non serviceable, regret inconvenience"}
+
+{"quotations":[{"quotation_uuid":"a0f3f712-d428-4774-9e2e-2d941028874b","fare":{"currency":"INR","minor_amount":57900},"original_fare":{"currency":"INR","minor_amount":57900},"base_fare":{"currency":"INR","minor_amount":49067},"gst_amount":{"currency":"INR","minor_amount":8832},"edd":5,"edd_range":{"start_edd":4,"end_edd":5},"courier_partner":{"name":"Delhivery","service_type":"Air","category":"B2C"}},{"quotation_uuid":"40e77f78-7e31-4fea-9ecc-68b8418a3efb","fare":{"currency":"INR","minor_amount":28500},"original_fare":{"currency":"INR","minor_amount":28500},"base_fare":{"currency":"INR","minor_amount":24152},"gst_amount":{"currency":"INR","minor_amount":4347},"edd":7,"edd_range":{"start_edd":6,"end_edd":7},"courier_partner":{"name":"Delhivery","service_type":"Surface","category":"Bulk"}},{"quotation_uuid":"177825af-6548-44c6-b624-05317c00f1d7","fare":{"currency":"INR","minor_amount":29200},"original_fare":{"currency":"INR","minor_amount":29200},"base_fare":{"currency":"INR","minor_amount":24745},"gst_amount":{"currency":"INR","minor_amount":4454},"edd":6,"edd_range":{"start_edd":5,"end_edd":6},"courier_partner":{"name":"Xpressbees","service_type":"Surface","category":"NA"}}],"franchise_details":{"shipment_label_required":"Yes"},"pickup_infos":[{"date":"2024-08-27","start_time":"11:30","end_time":"14:00"}],"discount_message":""}
+
+{
+    "quotations": [
+        {
+            "quotation_uuid": "a0f3f712-d428-4774-9e2e-2d941028874b",
+            "fare": {
+                "currency": "INR",
+                "minor_amount": 57900
+            },
+            "original_fare": {
+                "currency": "INR",
+                "minor_amount": 57900
+            },
+            "base_fare": {
+                "currency": "INR",
+                "minor_amount": 49067
+            },
+            "gst_amount": {
+                "currency": "INR",
+                "minor_amount": 8832
+            },
+            "edd": 5,
+            "edd_range": {
+                "start_edd": 4,
+                "end_edd": 5
+            },
+            "courier_partner": {
+                "name": "Delhivery",
+                "service_type": "Air",
+                "category": "B2C"
+            }
+        },
+        {
+            "quotation_uuid": "40e77f78-7e31-4fea-9ecc-68b8418a3efb",
+            "fare": {
+                "currency": "INR",
+                "minor_amount": 28500
+            },
+            "original_fare": {
+                "currency": "INR",
+                "minor_amount": 28500
+            },
+            "base_fare": {
+                "currency": "INR",
+                "minor_amount": 24152
+            },
+            "gst_amount": {
+                "currency": "INR",
+                "minor_amount": 4347
+            },
+            "edd": 7,
+            "edd_range": {
+                "start_edd": 6,
+                "end_edd": 7
+            },
+            "courier_partner": {
+                "name": "Delhivery",
+                "service_type": "Surface",
+                "category": "Bulk"
+            }
+        },
+        {
+            "quotation_uuid": "177825af-6548-44c6-b624-05317c00f1d7",
+            "fare": {
+                "currency": "INR",
+                "minor_amount": 29200
+            },
+            "original_fare": {
+                "currency": "INR",
+                "minor_amount": 29200
+            },
+            "base_fare": {
+                "currency": "INR",
+                "minor_amount": 24745
+            },
+            "gst_amount": {
+                "currency": "INR",
+                "minor_amount": 4454
+            },
+            "edd": 6,
+            "edd_range": {
+                "start_edd": 5,
+                "end_edd": 6
+            },
+            "courier_partner": {
+                "name": "Xpressbees",
+                "service_type": "Surface",
+                "category": "NA"
+            }
+        }
+    ],
+    "franchise_details": {
+        "shipment_label_required": "Yes"
+    },
+    "pickup_infos": [
+        {
+            "date": "2024-08-27",
+            "start_time": "11:30",
+            "end_time": "14:00"
+        }
+    ],
+    "discount_message": ""
+}
+
+
+cols -
+fare.minor_amount
+base_fare.minor_amount
+gst_amount.minor_amount
+edd
+edd_range.start_edd
+edd_range.end_edd
+courier_partner.name
+courier_partner.service_type
+
+
+
+

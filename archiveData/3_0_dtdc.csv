@@ -1,0 +1,2 @@
+org_pin,dst_pin,dst_state,vol_wt,obj_cost,org_lat,org_long,org_hasMetroCity,org_isSpecialDest,org_po_del,org_state,dst_lat,dst_long,dst_hasMetroCity,dst_isSpecialDest,dst_po_del,distance
+110058,522007,ANDHRAPRADESH,5500,2100,,,1,0,1,DELHI,,,0,0,1,
